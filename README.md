@@ -20,11 +20,11 @@ curl -X 'GET' \
 The API server will process the request and return a float value representing the predicted trading volume based on the trained model.
 
 ## Deployment
-The API service, along with the trained model, has been deployed using virtual linux machine (EC2) ON [AWS](https://aws.amazon.com). You can access the deployed API service through thIS [link](http://34.201.65.4/docs)
+The API service, along with the trained model, has been deployed using virtual linux machine (EC2) ON [AWS](https://aws.amazon.com). You can access the deployed API service through this [link](http://34.201.65.4/docs)
 
 
 ## Additional Documentation
-For further information, including detailed documentation and source code, please refer to the this repository. The directory contains the necessary code, documentation, and any additional resources related to the model serving problem.
+For further information, including detailed documentation and source code, please refer to the this [repository](https://github.com/Hyacinth-Ali/rt-ai-model-server). The directory contains the necessary code, documentation, and any additional resources related to the model serving problem.
 
 Feel free to explore the provided code and documentation to gain a deeper understanding of the model serving solution.
 
