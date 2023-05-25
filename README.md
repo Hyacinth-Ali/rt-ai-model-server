@@ -1,6 +1,6 @@
 # Problem 4: Model Serving
 
-The objective of this problem is to build an API service that serves the trained predictive models. I have implemented an API service using Python and FastAPI [FastAPI](https://fastapi.tiangolo.com) to achieve this goal. The API service provides a `/predict` endpoint that accepts input values for `vol_moving_avg`, `adj_close_rolling_med`, and an optional security parameter and responds with the predicted trading volume. When no security is entered or selected, the predicted volume is based on the combined datasets from ETFs and Stocks.
+The objective of this problem is to build an API service that serves the trained predictive models. I have implemented an API service using Python and [FastAPI](https://fastapi.tiangolo.com) to achieve this goal. The API service provides a `/predict` endpoint that accepts input values for `vol_moving_avg`, `adj_close_rolling_med`, and an optional security parameter and responds with the predicted trading volume. When no security is entered or selected, the predicted volume is based on the combined datasets from ETFs and Stocks.
 
 To interact with the API service, you can make HTTP GET requests to the `http://34.201.65.4/predict` endpoint with the appropriate parameters. Here's an example:
 
