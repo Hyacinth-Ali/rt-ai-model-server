@@ -26,7 +26,7 @@ def predict(
     Args:
         vol_moving_avg (float): The moving average volume of the combined security
         adj_close_rolling_med (float): The adjusted closing rolling median 
-        security (SecurityName): The name of a specific security: either stock or etfs
+        security (SecurityName, optional): The name of a specific security: either stock or etfs
 
     Returns:
         float: The predicted volume
