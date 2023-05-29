@@ -6,14 +6,14 @@ To interact with the API service, you can make HTTP GET requests to the `http://
 
 ```
 curl -X 'GET' \
-  'http://34.201.65.4/predict?vol_moving_avg=12345&adj_close_rolling_med=6' \
+  'http://18.232.150.175/predict?vol_moving_avg=12345&adj_close_rolling_med=6' \
   -H 'accept: application/json'
 ```
 
 Alternatively, you can provide the `security` parameter as part of the query parameters. Here's an example of a GET request for the Stock security:
 ```
 curl -X 'GET' \
-  'http://34.201.65.4/predict?vol_moving_avg=10000&adj_close_rolling_med=5&security=stock' \
+  'http://18.232.150.175/predict?vol_moving_avg=10000&adj_close_rolling_med=5&security=stock' \
   -H 'accept: application/json'
  ```
 
