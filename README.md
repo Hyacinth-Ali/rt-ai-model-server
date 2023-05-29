@@ -25,7 +25,7 @@ The API service, along with the trained model, has been deployed using virtual L
 
 
 ## Additional Documentation
-For further information, including detailed documentation and source code, please refer to this [repository](https://github.com/Hyacinth-Ali/rt-ai-model-server). The directory contains the necessary code, documentation, and any additional resources related to the model serving problem.
+For further information, including detailed documentation and source code, please refer to this [repository](https://github.com/Hyacinth-Ali/rt-ai-model-server). The directory contains the necessary code, documentation, and any additional resources related to the model serving problem. Note that the actual models are not contained in this repository because of their large sizes. 
 
 Feel free to explore the provided code and documentation to gain a deeper understanding of the model serving solution.
 
