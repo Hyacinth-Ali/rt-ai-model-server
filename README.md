@@ -21,7 +21,7 @@ curl -X 'GET' \
 The API server will process the request and return a float value representing the predicted trading volume based on the trained model.
 
 ## Deployment
-The API service, along with the trained model, has been deployed using virtual Linux machine [EC2](https://aws.amazon.com/ec2/) ON [AWS](https://aws.amazon.com). You can access the deployed API service through this [link](`http://18.232.150.175/docs`)
+The API service, along with the trained model, has been deployed using virtual Linux machine [EC2](https://aws.amazon.com/ec2/) ON [AWS](https://aws.amazon.com). You can access the deployed API service through this [link](http://18.232.150.175/docs)
 
 
 ## Additional Documentation
